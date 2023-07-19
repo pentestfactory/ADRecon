@@ -13171,7 +13171,7 @@ If ($Log)
     Start-Transcript -Path "$(Get-Location)\ADRecon-Console-Log.txt"
 }
 
-Invoke-ADRecon -GenExcel $GenExcel -Method $Method -Collect $Collect -DomainController $DomainController -Credential $Credential -OutputType $OutputType -ADROutputDir $OutputDir -DormantTimeSpan $DormantTimeSpan -PassMaxAge $PassMaxAge -PageSize $PageSize -Threads $Threads -OnlyEnabled $OnlyEnabled -Logo $Logo
+#Invoke-ADRecon -GenExcel $GenExcel -Method $Method -Collect $Collect -DomainController $DomainController -Credential $Credential -OutputType $OutputType -ADROutputDir $OutputDir -DormantTimeSpan $DormantTimeSpan -PassMaxAge $PassMaxAge -PageSize $PageSize -Threads $Threads -OnlyEnabled $OnlyEnabled -Logo $Logo
 
 If ($Log)
 {
